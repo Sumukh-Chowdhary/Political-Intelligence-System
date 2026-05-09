@@ -1,0 +1,51 @@
+state,pvi_score,pvi_label,state_lean,avg_dem_pct,avg_rep_pct
+Wyoming,-23.55,R+23.6,Republican,26.24,73.76
+West Virginia,-20.95,R+20.9,Republican,28.85,71.15
+Idaho,-19.61,R+19.6,Republican,30.18,69.82
+North Dakota,-18.52,R+18.5,Republican,31.28,68.72
+Oklahoma,-17.7,R+17.7,Republican,32.1,67.9
+Arkansas,-15.46,R+15.5,Republican,34.34,65.66
+South Dakota,-14.89,R+14.9,Republican,34.9,65.1
+Kentucky,-14.77,R+14.8,Republican,35.02,64.97
+Alabama,-14.41,R+14.4,Republican,35.39,64.61
+Tennessee,-13.82,R+13.8,Republican,35.98,64.03
+Utah,-11.88,R+11.9,Republican,37.92,62.08
+Louisiana,-10.77,R+10.8,Republican,39.03,60.97
+Nebraska,-10.76,R+10.8,Republican,39.03,60.96
+Mississippi,-10.52,R+10.5,Republican,39.28,60.72
+Montana,-10.33,R+10.3,Republican,39.47,60.53
+Indiana,-10.02,R+10.0,Republican,39.78,60.22
+Missouri,-9.05,R+9.1,Republican,40.75,59.24
+Kansas,-8.52,R+8.5,Republican,41.28,58.72
+South Carolina,-7.89,R+7.9,Republican,41.91,58.09
+Alaska,-7.71,R+7.7,Republican,42.08,57.92
+Iowa,-6.22,R+6.2,Republican,43.58,56.42
+Texas,-5.36,R+5.4,Republican,44.44,55.56
+Ohio,-5.23,R+5.2,Republican,44.57,55.43
+Florida,-4.37,R+4.4,Republican,45.43,54.57
+Arizona,-1.77,R+1.8,Republican,48.03,51.97
+North Carolina,-1.7,R+1.7,Republican,48.1,51.9
+Nevada,-1.02,R+1.0,Republican,48.78,51.22
+Georgia,-0.81,R+0.8,Republican,48.98,51.02
+Wisconsin,-0.67,R+0.7,Republican,49.12,50.88
+Pennsylvania,-0.44,R+0.4,Republican,49.36,50.64
+Michigan,-0.34,R+0.3,Republican,49.46,50.54
+New Hampshire,1.91,D+1.9,Democrat,51.7,48.3
+Minnesota,1.95,D+1.9,Democrat,51.75,48.25
+Maine,2.67,D+2.7,Democrat,52.46,47.54
+Virginia,3.01,D+3.0,Democrat,52.8,47.2
+New Mexico,3.25,D+3.2,Democrat,53.04,46.96
+New Jersey,4.62,D+4.6,Democrat,54.42,45.58
+Colorado,4.91,D+4.9,Democrat,54.7,45.3
+Oregon,5.83,D+5.8,Democrat,55.62,44.38
+Illinois,6.32,D+6.3,Democrat,56.12,43.88
+Rhode Island,7.64,D+7.6,Democrat,57.44,42.56
+Washington,7.94,D+7.9,Democrat,57.74,42.26
+Delaware,8.02,D+8.0,Democrat,57.82,42.18
+Connecticut,8.03,D+8.0,Democrat,57.83,42.17
+New York,8.3,D+8.3,Democrat,58.1,41.9
+California,11.29,D+11.3,Democrat,61.09,38.91
+Hawaii,12.08,D+12.1,Democrat,61.88,38.12
+Massachusetts,13.36,D+13.4,Democrat,63.16,36.84
+Maryland,13.63,D+13.6,Democrat,63.43,36.57
+Vermont,15.08,D+15.1,Democrat,64.88,35.12

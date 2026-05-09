@@ -1,0 +1,101 @@
+year,state,dem_pct,rep_pct,winner
+2020,Alabama,36.57,62.03,R
+2020,Alaska,42.77,52.83,R
+2020,Arizona,49.36,49.06,D
+2020,Arkansas,34.78,62.4,R
+2020,California,63.48,34.32,D
+2020,Colorado,55.01,41.6,D
+2020,Connecticut,59.26,39.19,D
+2020,Delaware,58.74,39.77,D
+2020,Florida,47.86,51.22,R
+2020,Georgia,49.47,49.24,D
+2020,Hawaii,63.15,33.95,D
+2020,Idaho,33.07,63.84,R
+2020,Illinois,57.54,40.55,D
+2020,Indiana,40.96,57.02,R
+2020,Iowa,44.65,52.8,R
+2020,Kansas,41.56,56.21,R
+2020,Kentucky,36.15,62.09,R
+2020,Louisiana,39.85,58.46,R
+2020,Maine,52.53,43.55,D
+2020,Maryland,65.36,32.15,D
+2020,Massachusetts,65.12,31.91,D
+2020,Michigan,50.62,47.84,D
+2020,Minnesota,52.4,45.28,D
+2020,Mississippi,41.06,57.6,R
+2020,Missouri,41.41,56.8,R
+2020,Montana,40.55,56.92,R
+2020,Nebraska,39.17,58.22,R
+2020,Nevada,50.06,47.67,D
+2020,New Hampshire,52.71,45.36,D
+2020,New Jersey,57.33,41.4,D
+2020,New Mexico,54.29,43.5,D
+2020,New York,60.39,37.46,D
+2020,North Carolina,48.59,49.93,R
+2020,North Dakota,31.76,65.11,R
+2020,Ohio,45.24,53.27,R
+2020,Oklahoma,32.29,65.37,R
+2020,Oregon,56.45,40.37,D
+2020,Pennsylvania,50.01,48.84,D
+2020,Rhode Island,59.48,38.67,D
+2020,South Carolina,43.42,55.09,R
+2020,South Dakota,35.61,61.77,R
+2020,Tennessee,37.45,60.66,R
+2020,Texas,46.48,52.06,R
+2020,Utah,37.65,58.13,R
+2020,Vermont,65.46,30.38,D
+2020,Virginia,54.11,44,D
+2020,Washington,57.97,38.77,D
+2020,West Virginia,29.7,68.63,R
+2020,Wisconsin,49.45,48.82,D
+2020,Wyoming,26.39,69.5,R
+2024,Alabama,34.2,64.8,R
+2024,Alaska,41.4,54.5,R
+2024,Arizona,46.7,52.2,R
+2024,Arkansas,33.9,64.5,R
+2024,California,58.7,38.2,D
+2024,Colorado,54.4,43.1,D
+2024,Connecticut,56.4,41.9,D
+2024,Delaware,56.9,41.4,D
+2024,Florida,43,56.1,R
+2024,Georgia,48.5,50.7,R
+2024,Hawaii,60.6,37.5,D
+2024,Idaho,27.3,70.4,R
+2024,Illinois,54.7,43.8,D
+2024,Indiana,38.6,59.6,R
+2024,Iowa,42.5,55.7,R
+2024,Kansas,41,57.2,R
+2024,Kentucky,33.9,64.5,R
+2024,Louisiana,38.2,60.2,R
+2024,Maine,52.4,44.5,D
+2024,Maryland,61.5,35.8,D
+2024,Massachusetts,61.2,35.5,D
+2024,Michigan,48.3,49.7,R
+2024,Minnesota,51.1,46.8,D
+2024,Mississippi,37.5,61.4,R
+2024,Missouri,40.1,58.5,R
+2024,Montana,38.4,58.5,R
+2024,Nebraska,38.9,59.8,R
+2024,Nevada,47.5,50.6,R
+2024,New Hampshire,50.7,47.9,D
+2024,New Jersey,51.5,46.5,D
+2024,New Mexico,51.8,46,D
+2024,New York,55.8,44.2,D
+2024,North Carolina,47.6,50.9,R
+2024,North Dakota,30.8,67.5,R
+2024,Ohio,43.9,55.2,R
+2024,Oklahoma,31.9,66.2,R
+2024,Oregon,54.8,42.1,D
+2024,Pennsylvania,48.7,50.4,R
+2024,Rhode Island,55.4,41.9,D
+2024,South Carolina,40.4,58.2,R
+2024,South Dakota,34.2,63.4,R
+2024,Tennessee,34.5,64.2,R
+2024,Texas,42.4,56.3,R
+2024,Utah,38.2,59.2,R
+2024,Vermont,64.3,32.5,D
+2024,Virginia,51.5,46.1,D
+2024,Washington,57.5,39.5,D
+2024,West Virginia,28,70.1,R
+2024,Wisconsin,48.8,49.6,R
+2024,Wyoming,26.1,72.3,R
