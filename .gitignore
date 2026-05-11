@@ -17,10 +17,6 @@ configs/.env
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
-
-# Models
-models/
 
 # Large datasets
 data/**/*.csv
