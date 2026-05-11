@@ -1,2 +1,27 @@
-/venv
-/configs
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+configs/.env
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Models
+models/
+
+# Large datasets
+data/**/*.csv
+data/**/*.tab

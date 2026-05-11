@@ -99,3 +99,4 @@ watchdog==6.0.0
 weasel==1.0.0
 websockets==16.0
 wrapt==2.1.2
+plotly==5.24.0
