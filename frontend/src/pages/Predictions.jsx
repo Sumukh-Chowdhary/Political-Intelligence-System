@@ -43,45 +43,47 @@ export default function Predictions() {
   };
 
   const fetchPredictions = async () => {
-    setLoading(true);
-    setError(false);
-    try {
-      let url = '/api/v1/predictions';
-      if (selectedState !== 'all') {
-        url = `/api/v1/predictions/state/${selectedState}`;
-      }
-      
-      const response = await api.get(url, { timeout: 30000 });
-      let allData = response.data.data || [];
-      
-      if (selectedState !== 'all') {
-        allData = response.data.data || [];
-      }
-      
-      const start = (currentPage - 1) * itemsPerPage;
-      const end = start + itemsPerPage;
-      const paginatedData = allData.slice(start, end);
-      
-      setPredictions(paginatedData);
-      setTotalPages(Math.ceil(allData.length / itemsPerPage));
-    } catch (err) {
-      console.error('Failed to fetch predictions:', err);
-      setError(true);
-      setPredictions([
-        { district: 'PA-07', state: 'PA', year: 2024, predicted_winner: 'Democrat', win_probability: 0.62, confidence: 0.62 },
-        { district: 'MI-08', state: 'MI', year: 2024, predicted_winner: 'Democrat', win_probability: 0.58, confidence: 0.58 },
-        { district: 'AZ-01', state: 'AZ', year: 2024, predicted_winner: 'Republican', win_probability: 0.55, confidence: 0.55 },
-        { district: 'GA-06', state: 'GA', year: 2024, predicted_winner: 'Democrat', win_probability: 0.71, confidence: 0.71 },
-        { district: 'TX-07', state: 'TX', year: 2024, predicted_winner: 'Democrat', win_probability: 0.59, confidence: 0.59 },
-        { district: 'FL-27', state: 'FL', year: 2024, predicted_winner: 'Republican', win_probability: 0.53, confidence: 0.53 },
-        { district: 'OH-01', state: 'OH', year: 2024, predicted_winner: 'Republican', win_probability: 0.51, confidence: 0.51 },
-        { district: 'NC-02', state: 'NC', year: 2024, predicted_winner: 'Democrat', win_probability: 0.67, confidence: 0.67 },
-      ]);
-      setTotalPages(1);
-    } finally {
-      setLoading(false);
+  setLoading(true);
+  setError(false);
+
+  try {
+    let url = '/api/v1/predictions';
+
+    const params = {
+      page: currentPage,
+      limit: 500, // show all 468 districts
+    };
+
+    // State filter
+    if (selectedState !== 'all') {
+      url = `/api/v1/predictions/state/${selectedState}`;
     }
-  };
+
+    const response = await api.get(url, {
+      params,
+      timeout: 30000,
+    });
+
+    const allData = response.data.data || [];
+
+    setPredictions(allData);
+
+    setTotalPages(
+      Math.max(
+        1,
+        Math.ceil(
+          (response.data.total_rows || allData.length) / itemsPerPage
+        )
+      )
+    );
+
+  } catch (err) {
+    console.error('Failed to fetch predictions:', err);
+    setError(true);
+  } finally {
+    setLoading(false);
+  }
+};
 
   const fetchDistrictPrediction = async (districtId) => {
     try {

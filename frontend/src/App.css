@@ -182,3 +182,17 @@
     border-right-color: var(--border);
   }
 }
+
+/* Leaflet map styles */
+.leaflet-container {
+  background: #f8fafc;
+}
+
+.leaflet-tooltip {
+  background: rgba(0, 0, 0, 0.8);
+  border: none;
+  color: white;
+  font-size: 12px;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
